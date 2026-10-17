@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"openpak/xb-live/internal/krb"
-	"openpak/xb-live/internal/xbaccountapi"
-	"openpak/xb-live/internal/xbcrypto"
+	"github.com/openpak/xb-common/krb"
+	"github.com/openpak/xb-common/xbaccountapi"
+	"github.com/openpak/xb-common/xbcrypto"
 )
 
 // capturedMACS is a real MACS AS-REQ sent by the stock 5960 dashboard

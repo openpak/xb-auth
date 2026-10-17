@@ -13,11 +13,11 @@ import (
 	"testing"
 	"time"
 
-	"openpak/xb-live/internal/krb"
-	"openpak/xb-live/internal/xbaccountapi"
-	"openpak/xb-live/internal/xbcrypto"
-	"openpak/xb-live/services/xb-auth/internal/kdc"
-	"openpak/xb-live/services/xb-auth/internal/memresolver"
+	"github.com/openpak/xb-auth/internal/kdc"
+	"github.com/openpak/xb-auth/internal/memresolver"
+	"github.com/openpak/xb-common/krb"
+	"github.com/openpak/xb-common/xbaccountapi"
+	"github.com/openpak/xb-common/xbcrypto"
 )
 
 const (

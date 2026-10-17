@@ -14,9 +14,9 @@ import (
 	"fmt"
 	"os"
 
-	"openpak/xb-live/internal/xbaccountapi"
-	"openpak/xb-live/internal/xbcrypto"
-	"openpak/xb-live/services/xb-auth/internal/kdc"
+	"github.com/openpak/xb-auth/internal/kdc"
+	"github.com/openpak/xb-common/xbaccountapi"
+	"github.com/openpak/xb-common/xbcrypto"
 )
 
 type Store map[string]xbcrypto.Key

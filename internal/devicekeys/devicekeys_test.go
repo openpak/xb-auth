@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"openpak/xb-live/services/xb-auth/internal/kdc"
+	"github.com/openpak/xb-auth/internal/kdc"
 )
 
 func TestLoad(t *testing.T) {

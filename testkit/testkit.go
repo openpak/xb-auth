@@ -5,9 +5,9 @@
 package testkit
 
 import (
-	"openpak/xb-live/internal/xbaccountapi"
-	"openpak/xb-live/services/xb-auth/internal/devicekeys"
-	"openpak/xb-live/services/xb-auth/internal/kdc"
+	"github.com/openpak/xb-auth/internal/devicekeys"
+	"github.com/openpak/xb-auth/internal/kdc"
+	"github.com/openpak/xb-common/xbaccountapi"
 )
 
 type (

@@ -1,5 +1,5 @@
 # MAIN host. Native auth/TGS (UDP/TCP 88 equivalents are decided by xb-auth; see its
-# README). Not buildable until services/xb-auth/cmd/xb-auth exists. The ticket reply
+# README). The ticket reply
 # advertises the SECONDARY PUBLIC gateway address, never a ZeroTier address.
 [Unit]
 Description=OpenPak Xbox auth/TGS

@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"openpak/xb-live/internal/krb"
+	"github.com/openpak/xb-common/krb"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"context"
 	"errors"
 
-	"openpak/xb-live/internal/xbcrypto"
+	"github.com/openpak/xb-common/xbcrypto"
 )
 
 // ErrNoDeviceKey means the console has no provisioned proof material. The KDC

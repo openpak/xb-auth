@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"time"
 
-	"openpak/xb-live/internal/krb"
-	"openpak/xb-live/services/xb-auth/internal/kdc"
+	"github.com/openpak/xb-auth/internal/kdc"
+	"github.com/openpak/xb-common/krb"
 )
 
 type settings struct {
