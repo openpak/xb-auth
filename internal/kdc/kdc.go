@@ -24,15 +24,14 @@ import (
 )
 
 const (
-	// DefaultGatewayIP is the secondary server's public address (docs/xbox/
-	// secondary-gateway-deployment.md). Never a ZeroTier address.
+	// DefaultGatewayIP is the secondary server's public address (internal research notes). Never a ZeroTier address.
 	DefaultGatewayIP = "145.241.228.207"
 	// TGTTicketVNO is what Xombie writes in the TGT's tkt-vno. The client treats
 	// the TGT as opaque and echoes it, and this value is part of the measured
 	// prototype behaviour; it has not been re-verified against hardware here.
 	TGTTicketVNO = 0
 	// DefaultUserCountryID is the LocaleCode of US in OpenPak's country list
-	// (docs/xbox/inx-format.md).
+	// (internal research notes).
 	DefaultUserCountryID = 103
 	// BandwidthLimit is the bw_limit Xombie advertises. Meaning unmeasured.
 	BandwidthLimit = 9001
