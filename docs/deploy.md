@@ -26,3 +26,7 @@ published Xombie prototype keys are refused.
 - Image: `podman build --secret id=netrc,src=$HOME/.netrc -t ghcr.io/openpak/xb-auth:dev .`
 - Release: push a `vX.Y.Z` tag; `.github/workflows/release.yml` (tags and manual dispatch only) tests and publishes the multi-arch image. CI reads xb-common with the job's `GITHUB_TOKEN` through a netrc build secret; nothing secret is in git or in the image.
 - `deploy/` holds the env example and a Podman quadlet example (digests in it are examples; production pins its own).
+
+## Tests
+
+`GOWORK=off go test -race ./...` (use a scratch TMPDIR). Everything is unit/in-process.

@@ -22,3 +22,7 @@ only, released only for an admitted device): without it MACS answers
 
 Machine id = the 12-digit serial as a number, 16 lowercase hex digits
 (see docs/go-service-contracts.md item 4).
+
+## Transport
+
+KDC on UDP 88 plus a private health listener. `KDC.UserAccountBlob` builds the account blob for a provisioned user, but no network path hands it to a console; MACS delivers only the machine account (Xombie's MACS delivered the user account).
