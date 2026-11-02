@@ -1,7 +1,7 @@
 # Notes: xb-auth
 
 Original Xbox Kerberos service (KDC), Go port of Xombie's `services/kdc`.
-UDP 88 plus a private health listener. AGPL-3.0-only. Not deployed.
+UDP 88 plus a private health listener. AGPL-3.0-only.
 
 ## Provenance and licence
 
